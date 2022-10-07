@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiz-App</title>
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <script src="./js/index.js" defer></script>
   </head>
   <body>
     <header class="header">
@@ -17,12 +18,16 @@
                 FIRST CARD
               -->
         <li class="card-list__item">
-          <article class="card">
+          <article class="card" data-js="card">
             <h2 class="card__question">
               In the Kingdom Heart series who provides the english voice for
               Master Eraqus?
             </h2>
-            <button class="card__button-answer" type="button">
+            <button
+              class="card__button-answer"
+              type="button"
+              data-js="answer-button"
+            >
               Show answer
             </button>
             <p class="card__answer">Mark Hamill</p>
@@ -142,7 +147,7 @@
         <li class="navigation__list-item">
           <a
             class="navigation__link"
-            href="/bookmarks.html"
+            href="pages/bookmarks.html"
             aria-label="go to bookmarks page"
           >
             <svg
@@ -160,7 +165,7 @@
         <li class="navigation__list-item">
           <a
             class="navigation__link"
-            href="/profile.html"
+            href="pages/profile.html"
             aria-label="go to profile page"
           >
             <svg
