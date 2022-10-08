@@ -1,0 +1,17 @@
+/* .form{
+
+
+} */
+
+.submit-button {
+  background: var(--secondary);
+  color: var(--white);
+  border: none;
+  display: block;
+  margin: 0 auto 2rem auto;
+  padding: 1rem;
+}
+
+label {
+  margin: 0 0 2rem;
+}
