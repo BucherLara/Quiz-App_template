@@ -7,11 +7,12 @@ answerButton.addEventListener("click", (event) => {
   console.log(event.target);
   cardAnswer.classList.toggle("card__answer--active");
   if (cardAnswer.classList.contains("card__answer--active")) {
-    event.target.textContent = "Hide answer";
+    answerButton.textContent = "Hide answer";
   } else {
-    event.target.textContent = "Show answer";
+    answerButton.textContent = "Show answer";
   }
 });
+// Event.target ist answerbutton und kann über variable abgerufen werden deshalb obsolet
 
 bookmarkButton.addEventListener("click", (event) => {
   console.log(event.target);

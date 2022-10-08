@@ -7,21 +7,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiz-App</title>
     <link rel="stylesheet" href="../styles/styles.css" />
-    <script src="./js/index.js" defer></script>
+    <script src="../js/index.js" defer></script>
   </head>
   <body>
     <header class="header">
       <h1 class="header__title">Quiz-App</h1>
     </header>
-    <main></main>
-  </body>
-</html>
+<main>
+
+<form class="list">
+<fieldset>
+<label  for="your-question">Your question:</label>
+<input type="text" id="your-question"  name="your-question"/>
+<label for="your-answer">Your answer:</label>
+<input type="text" id="your-answer"  name="your-answer"/>
+<label for="tag">Tag:</label>
+<input type="text" id="tag"  name="tag"/>
+<button class= "submit-button" type="submit" name="submit-button">Submit</button>
+</fieldset>
+</form>
+</main>
+  
 <nav class="navigation">
     <ul class="navigation__list">
       <li class="navigation__list-item navigation__list-item--active">
         <a
           class="navigation__link"
-          href="/index.html"
+          href="../index.html"
           aria-label="go to home page"
         >
           <svg
@@ -61,7 +73,7 @@
           href="form.html"
           aria-label="create new card"
         >
-          <img src="assets/add-Icon.png"
+          <img src="../assets/add-Icon.png"
             height="24px"
             viewbox="0 0 24 24"
             width="24px"

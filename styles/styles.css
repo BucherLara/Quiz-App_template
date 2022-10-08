@@ -6,4 +6,5 @@
 @import "./components/header/header.css";
 @import "./components/navigation/navigation.css";
 @import "./components/profile/profile.css";
-@import "./styles/components/counter-list/counter-list.css";
+@import "./components/counter-list/counter-list.css";
+@import "./components/form/form.css";
